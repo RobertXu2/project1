@@ -22,6 +22,8 @@ print('The web server is up on port:', serverPort)
 
 # Start an infinite loop to keep the server running and accepting connections
 while True:
+    # Print a message to show that the server is ready and running
+    print('Ready to serve...')
 
     # Accept a connection from a client
     # connectionSocket is the new socket for this connection, and addr is the client's address
